@@ -1,0 +1,35 @@
+﻿@model SendTemplateMessageViewModel
+@{
+	ViewData["Title"] = "Send WhatsApp Template Message Page";
+}
+
+<a asp-area="" asp-controller="Home" asp-action="Dashboard" class="btn btn-sm btn-outline-info" style="margin-top: 3% !important;"><</a>
+@if (TempData["Success"] != null)
+{
+	<p class="alert alert-success" id="successMessage">@TempData["Success"]</p>
+}
+<div class="row text-msg">
+	<form method="post">
+		<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+		<div class="row mb-3">
+			<label class="col-sm-5 col-form-label">Recipient Phone Number</label>
+			
+			<div class="col-sm-6">
+				<input asp-for="RecipientPhoneNumber" class="form-control" />
+			</div>
+		</div>
+		<div class="row mb-3">
+			<label class="col-sm-5 col-form-labell">Template Name</label>
+			
+			<div class="col-sm-6">
+				<input asp-for="TemplateName" class="form-control" />
+			</div>
+		</div>
+		<div class="row mb-3">
+			<button asp-action="SendWhatsAppTemplateMessage" asp-controller="Home" class="btn btn-primary">Send Template Message</button>
+			<button asp-action="SendWhatsAppTextTemplateMessageWithParameters" asp-controller="Home" class="btn btn-primary">Send Text Template Message With Parameters</button>
+			<button asp-action="SendWhatsAppInteractiveTemplateMessageWithParameters" asp-controller="Home" class="btn btn-primary">Send Interactive Template Message With Parameters</button>
+			<button asp-action="SendWhatsAppMediaTemplateMessageWithParameters" asp-controller="Home" class="btn btn-primary">Send Media Template Message With Parameters</button>
+		</div>
+	</form>
+</div>

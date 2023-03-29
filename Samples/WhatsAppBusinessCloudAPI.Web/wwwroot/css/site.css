@@ -1,0 +1,54 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-image: url('../imgs/bg.png');
+}
+
+.card img {
+    max-width: 29% !important;
+    float: right;
+    margin: -8% 2% 2% 2%;
+}
+.img-thumbnail {
+    background-color: #d5e2e3 !important;
+}
+.card {
+    border: 5px solid #6791ef !important;
+    padding: 2% !important;
+    border-radius: 16px !important;
+    background-image: linear-gradient(to right top, #121414, #151818, #171c1c, #1a2121, #1c2525) !important;
+}
+h4 {
+    color: #52ffa7 !important;
+}
+.btn-outline-info {
+    margin-top: 11%;
+}
+.text-msg{margin-top:9%;}
+label {
+    color: #e595ff;
+    font-weight: bold;
+}
+.right-title {
+    text-align: center;
+    background-color: #035e62ba;
+    color: #22fff5;
+}
+.alert-success {
+    background-color: #abff97 !important;
+    margin-top: 2% !important;
+}

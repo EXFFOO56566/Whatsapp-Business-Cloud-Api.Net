@@ -1,0 +1,89 @@
+﻿@model SendMediaMessageViewModel
+@{
+	ViewData["Title"] = "Send WhatsApp Media Message Page";
+}
+
+<a asp-area="" asp-controller="Home" asp-action="Dashboard" class="btn btn-sm btn-outline-info" style="margin-top: 3% !important;"><</a>
+@if (TempData["Success"] != null)
+{
+	<p class="alert alert-success" id="successMessage">@TempData["Success"]</p>
+}
+<div class="row  text-msg">
+	<div class="col-md-6">
+		<div class="row">
+			
+			<form asp-action="UploadMedia" enctype="multipart/form-data">
+				<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+				<div class="row mb-3">
+					<label class="control-label">Media File</label>
+					<div class="input-group">
+						<input type="file" class="custom-file-input" id="mediaFile" name="mediaFile" />
+						@*<label class="custom-file-label">Choose Media File</label>*@
+						<input type="submit" value="Upload Media" class="btn btn-warning" />
+					</div>
+				</div>
+				<div class="form-group">
+					@*<input type="submit" value="Upload Media" class="btn btn-primary" />*@
+				</div>
+			</form>
+
+			@if (TempData["MediaId"] != null)
+			{
+				<p style="color: azure;"> Media Id from WhatsApp: @TempData["MediaId"]</p>
+			}
+			
+		</div>
+		<form asp-action="SendMedia">
+			<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+			<div class="row mb-3">
+				<label class="col-sm-5 col-form-labell">Recipient Phone Number</label>
+
+				<div class="col-sm-6">
+					<input asp-for="RecipientPhoneNumber" class="form-control" />
+				</div>
+
+			</div>
+			<div class="row mb-3">
+				<label class="col-sm-5 col-form-label">Message</label>
+
+				<div class="col-sm-6">
+					<input asp-for="Message" class="form-control" />
+				</div>
+			</div>
+			<div class="row mb-3">
+				<label class="col-sm-5 col-form-label">Media Type</label>
+
+				<div class="col-sm-6">
+					<select class="form-control form-select form-select-lg mb-3" asp-for="SelectedMediaType" asp-items="@Model.MediaType"></select>
+				</div>
+			</div>
+			<div class="row mb-3">
+				<label class="col-sm-5 col-form-labell">Media Url</label>
+
+				<div class="col-sm-6">
+					<input asp-for="MediaLink" class="form-control" />
+				</div>
+			</div>
+			<div class="row mb-3">
+				<label class="col-sm-5 col-form-label">Media Id</label>
+
+				<div class="col-sm-6">
+					<input asp-for="MediaId" class="form-control" />
+				</div>
+			</div>
+			<div class="form-group">
+				<input type="submit" value="Send Message" class="btn btn-success" />
+			</div>
+		</form>
+	</div>
+	<div class="col-md-2"></div>
+	<div class="col-md-4 right-title">
+		<div>
+			<p style="font-size: 32px;">Send</p><br />
+			<p style="font-size: 32px;color: #06f118;">Media</p><br />
+			<p style="font-size: 32px;">Message</p><br />
+		</div></a>
+
+	</div>
+	
+</div>

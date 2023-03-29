@@ -1,0 +1,10 @@
+C:\Users\NT\Downloads\Whatsapp-Business-Cloud-Api-Net-master\Whatsapp-Business-Cloud-Api-Net-master\WhatsappBusiness.CloudApi\bin\Debug\netstandard2.0\WhatsappBusiness.CloudApi.deps.json
+C:\Users\NT\Downloads\Whatsapp-Business-Cloud-Api-Net-master\Whatsapp-Business-Cloud-Api-Net-master\WhatsappBusiness.CloudApi\bin\Debug\netstandard2.0\WhatsappBusiness.CloudApi.dll
+C:\Users\NT\Downloads\Whatsapp-Business-Cloud-Api-Net-master\Whatsapp-Business-Cloud-Api-Net-master\WhatsappBusiness.CloudApi\bin\Debug\netstandard2.0\WhatsappBusiness.CloudApi.pdb
+C:\Users\NT\Downloads\Whatsapp-Business-Cloud-Api-Net-master\Whatsapp-Business-Cloud-Api-Net-master\WhatsappBusiness.CloudApi\obj\Debug\netstandard2.0\WhatsappBusiness.CloudApi.csproj.AssemblyReference.cache
+C:\Users\NT\Downloads\Whatsapp-Business-Cloud-Api-Net-master\Whatsapp-Business-Cloud-Api-Net-master\WhatsappBusiness.CloudApi\obj\Debug\netstandard2.0\WhatsappBusiness.CloudApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NT\Downloads\Whatsapp-Business-Cloud-Api-Net-master\Whatsapp-Business-Cloud-Api-Net-master\WhatsappBusiness.CloudApi\obj\Debug\netstandard2.0\WhatsappBusiness.CloudApi.AssemblyInfoInputs.cache
+C:\Users\NT\Downloads\Whatsapp-Business-Cloud-Api-Net-master\Whatsapp-Business-Cloud-Api-Net-master\WhatsappBusiness.CloudApi\obj\Debug\netstandard2.0\WhatsappBusiness.CloudApi.AssemblyInfo.cs
+C:\Users\NT\Downloads\Whatsapp-Business-Cloud-Api-Net-master\Whatsapp-Business-Cloud-Api-Net-master\WhatsappBusiness.CloudApi\obj\Debug\netstandard2.0\WhatsappBusiness.CloudApi.csproj.CoreCompileInputs.cache
+C:\Users\NT\Downloads\Whatsapp-Business-Cloud-Api-Net-master\Whatsapp-Business-Cloud-Api-Net-master\WhatsappBusiness.CloudApi\obj\Debug\netstandard2.0\WhatsappBusiness.CloudApi.dll
+C:\Users\NT\Downloads\Whatsapp-Business-Cloud-Api-Net-master\Whatsapp-Business-Cloud-Api-Net-master\WhatsappBusiness.CloudApi\obj\Debug\netstandard2.0\WhatsappBusiness.CloudApi.pdb

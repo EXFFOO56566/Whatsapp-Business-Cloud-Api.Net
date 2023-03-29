@@ -1,0 +1,81 @@
+﻿
+@{
+
+}
+
+<body>
+    <div class="py-5">
+        <div class="container">
+            <div class="row">
+                <div style="margin: 0% 0% 7% 0%;font-size: 34px;
+    font-weight: bold;
+    color: #f9f456;">
+                    <img src="~/imgs/whatsapp-api.png" style="max-width:7%;" /> WhatsApp Business Cloud Api
+                </div>
+            </div>
+            <div class="row hidden-md-up">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-block">
+                            <h4 class="card-title">Text message</h4>
+                            
+                           <img src="/imgs/text.png" alt="" class="img-thumbnail">
+                             <a    asp-area="" asp-controller="Home" asp-action="SendText" class="btn btn-sm btn-outline-info">Send</a>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-block">
+                            <h4 class="card-title">Media message</h4>
+                           <img src="/imgs/media.png" alt="" class="img-thumbnail">
+                            <a asp-area="" asp-controller="Home" asp-action="SendMedia" class="btn btn-sm btn-outline-info">Send</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-block">
+                            <h4 class="card-title">Location message</h4>
+                            <img src="/imgs/location.jpg" alt="" class="img-thumbnail">
+                           <a asp-area="" asp-controller="Home" asp-action="SendLocation" class="btn btn-sm btn-outline-info">Send</a>
+                        </div>
+                    </div>
+                </div>
+            </div><br>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-block">
+                            <h4 class="card-title">Interactive message</h4>
+                            <img src="/imgs/interactif.png" alt="" class="img-thumbnail">
+                           <a asp-area="" asp-controller="Home" asp-action="SendInteractive" class="btn btn-sm btn-outline-info">Send</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-block">
+                            <h4 class="card-title">Template message</h4>
+                           <img src="/imgs/template.png" alt="" class="img-thumbnail">
+                           <a asp-area="" asp-controller="Home" asp-action="SendTemplate" class="btn btn-sm btn-outline-info">Send</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-block">
+                            <h4 class="card-title">Contact message</h4>
+                          <img src="/imgs/contact.png" alt="" class="img-thumbnail">
+                           <a asp-area="" asp-controller="Home" asp-action="SendContact" class="btn btn-sm btn-outline-info">Send</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+    <script src="https://pingendo.com/assets/bootstrap/bootstrap-4.0.0-alpha.6.min.js"></script>
+</body>
